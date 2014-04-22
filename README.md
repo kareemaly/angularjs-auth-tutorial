@@ -1,4 +1,4 @@
-Managing user authentications and route access in angularjs
+Managing users authentication and route access in angularjs
 ==============
 
 Watch the tutorial on youtube

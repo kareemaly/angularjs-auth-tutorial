@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('authApp')
-  .service('Application', function Application() {
+  .factory('Application', function Application() {
 
     var ready = false, registeredListeners = [];
 

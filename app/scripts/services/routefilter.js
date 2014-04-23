@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('authApp')
-  .service('RouteFilter', function Routefilter($location) {
+  .factory('RouteFilter', function Routefilter($location) {
 
     var filters = [];
 

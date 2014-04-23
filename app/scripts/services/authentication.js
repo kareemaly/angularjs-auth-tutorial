@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('authApp')
-  .service('Authentication', function Authentication($q, $http, $timeout) {
+  .factory('Authentication', function Authentication($q, $http, $timeout) {
 
     var authenticatedUser = null;
 
@@ -75,6 +75,5 @@ angular.module('authApp')
         {
             return this.exists() && authenticatedUser.type == 'developer';
         }
-
     }
   });
